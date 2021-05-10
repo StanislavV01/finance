@@ -8,4 +8,4 @@
  
   
  
-[GH-pages](https://ok-webdev.github.io/financial-dashboard/)
+[GH-pages]()
