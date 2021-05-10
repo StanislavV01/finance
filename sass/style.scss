@@ -1,0 +1,47 @@
+@import './libs/swiper';
+@import './utils/fonts';
+@import './utils/variables';
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  position: relative;
+  background: #e5e5e5;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.dashboard {
+  width: 100%;
+  display: flex;
+  background: #ffffff;
+  border-radius: 50px;
+}
+
+@import './blocks/main';
+@import './blocks/titles';
+@import './blocks/btn';
+@import './blocks/input';
+@import './blocks/logo';
+@import './blocks/nav';
+@import './blocks/premium';
+@import './blocks/header';
+@import './blocks/cards';
+@import './blocks/card';
+@import './blocks/transaction';
+@import './blocks/goals';
+@import './blocks/statistics';
+@import './blocks/money';
+@import './blocks/new';
+@import './blocks/banner';
+@import './blocks/modal';
+
+
+@import './utils/media';
